@@ -58,6 +58,6 @@ df["emotion"] = [r["label"] for r in results]
 # -------------------------------------------------------
 # 5. Save output
 # -------------------------------------------------------
-df.to_csv("FILLED_TI18_TRUESIGHT.csv", index=False)
+df.to_csv("TI18_TRUESIGHT_FILLED.csv", index=False)
 print("✅ Emotion labels added! Saved as youtube_comments_with_emotion.csv")
 print(df[["comments", "emotion"]].head())
