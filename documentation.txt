@@ -1,0 +1,12 @@
+1. We scrapped a youtube video for comments 
+    * This is the first link = https://www.youtube.com/watch?v=Bv4CqIxqTMA&t=82s
+        * Video NAME: True Sight : The International 2018 Finals
+        * Video ID: Bv4CqIxqTMA&
+        
+    * Second link = https://www.youtube.com/watch?v=ceQ2XFS1tUo
+        * Video NAME: True Sight : The International 2019 Finals
+        * Video ID: ceQ2XFS1tUo
+        
+2. The problem is this dataset is not labeled yet with emotions so we did
+a some filling using a hug facing dataset pretrained to label comments in here
+    * Model used: model="j-hartmann/emotion-english-distilroberta-base",

@@ -2,7 +2,9 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import pandas as pd
 import time
-import math
+
+# Scrapes the youtube video for comments
+
 
 API_KEY = "AIzaSyD8piZB42Xpf_xtlEVGFX7J5SZMjJ9Y2Bo"   # place your API key here
 VIDEO_ID = "ceQ2XFS1tUo" # place your Video ID here in youtube
